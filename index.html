@@ -79,7 +79,7 @@ img:hover {
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <span class="d-block d-lg-none">Bader Pet Portrait</span>
+            <span class="d-block d-lg-none">Badr Pet Portrait</span>
             <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
                     src="assets/img/profile.jpg" alt="" /></span>
         </a>
@@ -104,14 +104,14 @@ img:hover {
         <section class="resume-section" id="about">
             <div class="resume-section-content">
                 <h1 class="mb-0">
-                    BADER
+                    BADR
                     <span class="text-danger">PET </span> PORTRAIT
                 </h1>
                 <div class="subheading mb-5">
                     <!--    3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
                         <a href="mailto:name@email.com">name@email.com</a> -->
                 </div>
-                <p class="lead mb-5">Hi ! I am Bader, I love all kind of arts .
+                <p class="lead mb-5">Hi ! I am Badr, I love all kind of arts .
                     I recently learned coloured pencils and have been enjoying it.
 
 
@@ -160,8 +160,7 @@ img:hover {
     <section class="resume-section" id="Pricing">
         <div class="resume-section-content">
             <h2 class="mb-5">Pricing</h2>
-
-            <table class="table ">
+                <table class="table">
                 <tr>
                     <td></td>
                     <th>1 Pet</th>
@@ -209,7 +208,30 @@ img:hover {
     <!-- ContactMe-->
     <section class="resume-section" id="ContactMe">
         <div class="resume-section-content">
-            <!--    <h2 class="mb-5">ContactMe</h2>
+            <h2 class="mb-5">Contact Me</h2>
+
+
+            <div class="d-flex flex-wrap flex-row">
+
+                <div class="p-1">
+                    <a href="tel:(226) 505-3698">  <i class="fa fa-phone"></i> (226) 505-3698 </a>
+
+                </div>
+            
+                <div class="p-1">
+                    <a href="face">  <i class="fab fa-facebook"></i> Badr Malla </a>
+
+                </div>
+
+                <div class="p-1">
+                    <a href="https://www.instagram.com/barry_pet_portraits/?hl=en">  <i class="fab fa-instagram"></i> barry_pet_portraits </a>
+
+                </div>
+
+
+
+            </div>
+            <!--    
 
                     <div class="subheading mb-3">Programming Languages & Tools</div>
                     <ul class="list-inline dev-icons">
@@ -290,7 +312,7 @@ img:hover {
             while(keepRunning){
                  imageCounter++;
                  
-                let url = `assets/images/${imageCounter}.jpeg`; 
+                let url = `assets/images/${imageCounter}.JPG`; 
                 try{
 
                  keepRunning = await imgExist(url);
@@ -308,7 +330,7 @@ img:hover {
         let imageLength = await checkImages();
         for(let i=1; i<=imageLength; i++){
 
-            let src =`assets/images/${i}.jpeg`;  
+            let src =`assets/images/${i}.jpg`;  
 
             let image = `<img src="${src}" class="pet-img m-1">`
             $('#imageContainer').append(image);
