@@ -312,7 +312,7 @@ img:hover {
             while(keepRunning){
                  imageCounter++;
                  
-                let url = `assets/images/${imageCounter}.jpg`; 
+                let url = `assets/images/${imageCounter}.JPG`; 
                 try{
 
                  keepRunning = await imgExist(url);
@@ -330,7 +330,7 @@ img:hover {
         let imageLength = await checkImages();
         for(let i=1; i<=imageLength; i++){
 
-            let src =`assets/images/${i}.jpg`;  
+            let src =`assets/images/${i}.JPG`;  
 
             let image = `<img src="${src}" class="pet-img m-1">`
             $('#imageContainer').append(image);
